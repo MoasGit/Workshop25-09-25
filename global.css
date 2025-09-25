@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header-menu-group {
+    display: flex;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
+    background: none;
+    border: none;
+}
+
+.icon-button:hover {
+    background-color: #F5F5F5;
+}
+
+.icon-button svg {
+    width: 2rem;
+    height: auto;
+    color: #000;
+}
+
+.primary-nav {
+    display: flex;
+    gap: 1rem;
+    padding: .5rem;
+    list-style: none;
+}
+
+
+.primary-nav a {
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+
+.primary-nav li {
+    padding: .5rem;
+    border-radius: .25rem;
+}
+
+.primary-nav li:hover {
+    background-color: #F5F5F5;
+}
+
+.primary-logo {
+    width: 104px;
+    height: auto;
+    color: #000;
+}
+
+.header-action-group {
+    display: flex;
+
+    gap: 1rem;
+    padding: 1rem;
+}
