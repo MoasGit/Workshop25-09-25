@@ -130,3 +130,74 @@ header {
     gap: 1rem;
     padding: 1rem;
 }
+
+.top-banner {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 15px;
+}
+
+.exit-btn {
+    display: flex;
+    margin-left: auto;
+    border: none;
+    color: #fff;
+    background: #000;
+    font-size: 20px;
+}
+
+.top-banner div {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.top-banner p {
+    margin-right: 30px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    position: relative;
+}
+
+.hero-image {
+    background-image: url("img/hero-big-background.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.primary-btn {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    font-weight: 700;
+    color: #000
+}
+
+.secondary-btn {
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
